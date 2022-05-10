@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shape="rectangle">
+    <solid android:color="#02DF82	" />
+    <corners
+        android:radius="50dip" />
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/>
+    <gradient
+        android:centerColor="@color/design_default_color_primary"
+        android:endColor="@color/teal_200"
+        android:startColor="@color/design_default_color_secondary"
+        android:type="sweep" />
+
+
+</shape>

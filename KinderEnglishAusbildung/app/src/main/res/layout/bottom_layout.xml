@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/cardview_shadow_end_color">
+
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:id="@+id/id_tab_shibie">
+
+         <ImageView
+             android:id="@+id/tab_iv_shibie"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:background="@drawable/tab_shibie"></ImageView>
+
+         <TextView
+             android:layout_width="32dp"
+             android:layout_height="wrap_content"
+             android:id="@+id/text_shibie"
+             android:gravity="center"
+             android:text="拼写"></TextView>
+
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_pinxie">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_pinxie"
+            android:id="@+id/tab_iv_pinxie"></ImageView>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_pinxie"
+            android:gravity="center"
+            android:text="改错"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_tab_gushi">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_gushi"
+            android:id="@+id/tab_iv_gushi"></ImageView>
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_gushi"
+            android:gravity="center"
+            android:text="故事"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shape="ring"
+    android:innerRadius="20dp"
+    android:thickness="6dp"
+    android:useLevel="false">
+    <size
+        android:width="70dp"
+        android:height="55dp" />
+
+    <!--扫描渐变shape不能设置角度  #00ff0000  #80ff0000 ffff0000 -->
+    <gradient
+        android:centerColor="@color/design_default_color_primary"
+        android:endColor="@color/teal_200"
+        android:startColor="@color/design_default_color_secondary"
+        android:type="sweep" />
+
+</shape>

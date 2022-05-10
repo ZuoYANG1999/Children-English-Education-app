@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cc1"
+
+
+    tools:context=".MainActivity">
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/picture"-->
+    <!--        android:layout_width="130dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginLeft="30dp"-->
+    <!--        android:layout_marginTop="319dp"-->
+    <!--        android:text="从相册选择"-->
+    <!--        app:backgroundTint="#E3CD0F" />-->
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/morefuction"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="115dp"-->
+    <!--        android:layout_below="@+id/showimage"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginStart="7dp"-->
+    <!--        android:layout_marginLeft="7dp"-->
+    <!--        android:layout_marginTop="346dp"-->
+    <!--        android:layout_marginEnd="310dp"-->
+    <!--        android:layout_marginRight="310dp"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:text="Button" />-->
+
+    <TextView
+        android:id="@+id/nam"
+        android:layout_width="412dp"
+
+        android:layout_height="85dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#90F31E"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/showimage"
+        android:layout_width="356dp"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/showimage" />
+
+    <ImageButton
+        android:id="@+id/takephoto"
+        android:layout_width="224dp"
+        android:layout_height="211dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:layout_marginBottom="110dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/camera11"
+
+
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/picture"
+        android:layout_width="133dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-9dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gallery" />
+
+    <ImageButton
+        android:id="@+id/morefuction"
+        android:layout_width="163dp"
+        android:layout_height="144dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="272dp"
+        android:layout_marginRight="272dp"
+        android:layout_marginBottom="-18dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/more" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginRight="290dp"
+        android:layout_marginBottom="254dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sound" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="269dp"
+        android:background="#00FF0000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/add" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="75dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+
+        android:layout_marginBottom="163dp"
+        android:text="拍"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="40dp"
+        app:autoSizeMaxTextSize="@dimen/cardview_compat_inset_shadow" />
+
+
+</RelativeLayout>
